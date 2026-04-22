@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Install Maven') {
+        stage('Install to Maven') {
             steps {
                 sh 'sudo dnf install maven -y'
             }
